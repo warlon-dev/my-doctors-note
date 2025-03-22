@@ -3,7 +3,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='py-[30px] max-lg:px-[15px]'>
+    <div className='py-[30px] max-lg:px-[15px] max-w-[1200px] mx-auto'>
       <div className='flex flex-col'>
         <div className='w-[530px] max-md:w-full mx-auto'>
           <div className='flex flex-col items-center'>

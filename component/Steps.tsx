@@ -3,7 +3,7 @@ import React from 'react'
 
 const Steps = () => {
   return (
-    <div className='py-[30px] max-lg:px-[15px]'>
+    <div className='py-[30px] max-lg:px-[15px] max-w-[1200px] mx-auto'>
       <div className='mb-[40px] mx-auto flex flex-col justify-center w-[660px]'>
         <h2 className='text-center max-md:text-[30px] max-md:leading-10 text-[48px] font-semibold leading-[58px] tracking-[0.6px] mb-4'>
           Get An Online Doctor's

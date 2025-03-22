@@ -3,7 +3,7 @@ import React from 'react'
 
 const Guarantee = () => {
   return (
-    <div className='py-[30px] max-lg:px-[15px]'>
+    <div className='py-[30px] max-lg:px-[15px] max-w-[1200px] mx-auto'>
       <div className='py-[30px] bg-[#b9eedf] rounded-xl '>
        <div className='flex items-center max-md:flex-col gap-[30px] mx-auto w-[742px] max-md:w-full max-md:text-center'>
         <Image src={'/6790d778b0c1c07478996883_Group 1321319131.svg'} width={144} height={179} alt='alt'/>

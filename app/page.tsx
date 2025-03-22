@@ -15,6 +15,7 @@ export default function Home() {
       <Steps/>
       <Guarantee/>
       <Features/>
+      <div className="xl:block hidden py-[30px]"/>
       <Footer/>
     </div>
   );
