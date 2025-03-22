@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Instrument_Sans, Assistant } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+
+
+const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
+  variable: "--font-instrument-sans",
+  weight: ["400", "500", "600", "700"], // Choose the weights you need
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const assistant = Assistant({
   subsets: ["latin"],
+  variable: "--font-assistant",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${instrumentSans.variable} ${assistant.variable} font-ass antialiased`}
       >
         {children}
       </body>
